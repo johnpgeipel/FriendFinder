@@ -3,19 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Friend Finder | Survey</title>
+	<script src="https://kit.fontawesome.com/0f5b255809.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  	<script src="https://code.jquery.com/jquery.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
-  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	  <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
-	<header>
-  		<h1 class="text-center">Friend Finder</h1>
-  		<p class="text-center">Take the survey to find your match!</p>
-	</header>
+	
+		<div class="jumbotron text-center">
+				<div>
+					<div id="icon">
+					<i class="fab fa-facebook-square">  Friend Finder</i>
+					</div>
+				</div>
+				<br>
+				
+				<p id="sub-header">Take the survey to find your match</p>
+			</div>
 
 	<div class="container survey">
 		<form class="col-sm-12 col-lg-8 col-lg-offset-2">
@@ -26,8 +35,9 @@
 			<div class="form-group">
 				<label>Link to photo (Required)</label>
 				<input id="photo" type="text" class="form-control" placeholder="http://yourphoto.com" required/>
-			</div>
-			<p><strong>Answer the following questions from 1 (Strongly Disagree) to 5 (Strongly Agree)</strong></p>
+			</div><br>
+			
+			<label><strong>Answer the following questions from 1 (Strongly Disagree) to 5 (Strongly Agree)</strong></label><br><br>
 			<div class="form-group">
 				<label>1. Marvel movies are underrated.</label>
 				<select class="chosen-select" id="q1" type="number">
@@ -136,9 +146,11 @@
 		            <option value="3">3</option>
 		            <option value="4">4</option>
             		<option value="5">5</option>
-          		</select>
+				  </select>
+			</div><br>
 
 			<button type="submit" class="btn btn-info btn-block" id="submit">MATCH ME UP!</button>
+			<br><br>
 		</form>
 	</div>
 	

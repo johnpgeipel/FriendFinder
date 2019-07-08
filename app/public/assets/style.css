@@ -1,0 +1,34 @@
+
+
+.jumbotron {
+    background-color: rgb(32, 124, 178);
+    color: white;
+}
+
+label, p {
+    color:  rgb(32, 124, 178);
+    font-size: 20px;
+}
+
+#sub-header {
+    color: white;
+}
+
+.btn {
+    font-size: 20px;
+    color:white;
+}
+
+/* i {
+    height: 30px;
+    width: auto;
+    font-size: 70px;
+    
+} */
+i.fab {
+    height: 30px;
+    width: auto;
+    font-size: 50px;
+    
+    
+}
