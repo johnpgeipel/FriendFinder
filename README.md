@@ -8,7 +8,7 @@ Follow the [Heroku Link](https://lit-beach-26020.herokuapp.com/) to take the sur
 To create this app, I used HTML, CSS, JavaScript, JQuery, Node, Express and Heroku.
 
 ## Screenshot
-![alt text](https://github.com/johnpgeipel/FriendFinder/blob/master/app/public/assets/friendFinder.PNG "FriendFinder")
+![Friend Finder](https://github.com/johnpgeipel/FriendFinder/blob/master/app/public/assets/friendFinder.PNG "FriendFinder")
 
 
 
