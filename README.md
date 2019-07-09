@@ -1,4 +1,4 @@
-# FriendFinder
+# Friend Finder
 #### An entertainment application which matches individuals of similar interests based on survey results.
 
 ## Usage
