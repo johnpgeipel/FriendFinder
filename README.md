@@ -1,4 +1,10 @@
 # FriendFinder
-[Heroku Link](https://git.heroku.com/lit-beach-26020.git)
-An entertaining application that matches individuals with similar interests!
+#### An entertainment application which matches individuals of similar interests based on survey results.
+
+## Usage
+Follow the [Heroku Link](https://git.heroku.com/lit-beach-26020.git) to take the survey. After the user submits their name and a picture link, they take the survey. They are asked to rate 10 statements on a scale of 1 (Strongly Disagree) to 5 (Strongly Agree). After completing the survey, the application searches stored data and returns the individual with the closest matching answers. 
+
+![alt text](https://github.com/johnpgeipel/FriendFinder/blob/master/app/public/assets/friendFinder.PNG "FriendFinder")
+
+
 
